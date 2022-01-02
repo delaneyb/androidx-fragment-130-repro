@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" actionBarHidden="true" navigatingTo="onNavigatingTo">
+    <StackLayout>
+        <Label text="Nested Frame 'nested'. Tap below to call .navigate() on the frame. Change app.gradle to add/remove the override for the androidx.fragment library version and observe that navigation fails when set to v1.3.0+" textWrap="true" />
+        <Button text="Navigate the nested frame" tap="{{ onTap }}" />
+    </StackLayout>
+</Page>

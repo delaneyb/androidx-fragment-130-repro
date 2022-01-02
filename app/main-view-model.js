@@ -16,6 +16,7 @@ export function createViewModel() {
   viewModel.onTap = () => {
     viewModel.counter--
     viewModel.set('message', getMessage(viewModel.counter))
+    
   }
 
   return viewModel

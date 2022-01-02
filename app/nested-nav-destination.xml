@@ -1,0 +1,5 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" actionBarHidden="true" navigatingTo="onNavigatingTo">
+    <StackLayout>
+        <Label text="Nested Frame 'nested' navigation destination. Use the back button or swipe in gesture to navigate the nested frame back to the previous view." textWrap="true" />
+    </StackLayout>
+</Page>
